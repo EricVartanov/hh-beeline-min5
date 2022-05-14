@@ -1,0 +1,64 @@
+@media screen and (max-width: 1019px) {
+    .idc-section {
+        max-width: 610px;
+    }
+    .idc-container {
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    /* ******head**** */
+    .idc-head .idc-container {
+        height: 284px;
+    }
+}
+
+@media (max-width: 699px) {
+    /* ******head**** */
+    .idc-head .idc-container {
+        height: 46.6vw;
+    }
+    /* ******about**** */
+    .idc-about .idc-container {
+        padding-top: 20px;
+    }
+    .idc-about .idc-text {
+        width: 86vw;
+    }
+    /* ******info**** */
+    .idc-info .idc-container {
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
+    .idc-info p > strong {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 110%;
+        color: #000000;
+    }
+    .idc-info ul li {
+        font-size: 14px;
+        line-height: 140%;
+        margin-top: 12px;
+        padding-left: 16px;
+    }
+    .idc-info p:not(:first-child) {
+        margin-top: 40px;
+    }
+    .idc-info ul li::before {
+        top: 7px;
+        width: 6px;
+        height: 6px;
+    }
+
+    /* *****footer*** */
+    .idc-footer .idc-container {
+        padding-top: 45px;
+        padding-bottom: 40px;
+    }
+    .idc-ps {
+        font-size: 10px;
+        line-height: 12px;
+    }
+}
